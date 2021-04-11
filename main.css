@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body
+ {
+     background-color: rgb(255, 0, 0);
+    }
+ 
+.man{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.item{
+    height: 500px; 
+    width: 400px; 
+    margin: 40px;
+    border: 5px solid rgb(12, 12, 12);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+.dsa{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    
+
+
+
+.topa{
+    color: #000;
+    text-decoration: none;
+    font-size:50px ;
+    margin: 300px;
+    font-family: 'Akaya Telivigala', cursive;
+    border: double;
+    
+    
+
+}
+.apot{
+    color: #000;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    margin: 200px;
+    border: 5px double ;
+    
+}
+.topa:hover{
+    color: rgb(60, 255, 0);
+
+}
+.apot:hover{
+    color: rgb(60, 255, 0);
+}
+ 
+.photo1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/3/30/Iron_man_filmposter.jpg);
+}
+.photo2{
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/f/fa/%D0%9D%D0%B5%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D1%8B%D0%B9_%D0%A5%D0%B0%D0%BB%D0%BA.jpg);
+}
+ .photo3{
+     background-image: url(https://upload.wikimedia.org/wikipedia/ru/8/85/IronMan2.jpg);
+ }
+ .photo4{
+     background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/f/fc/Thor_poster.jpg/211px-Thor_poster.jpg);
+ }
+ .photo5{
+     background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/4/44/CaptainAmerica.jpg/203px-CaptainAmerica.jpg);
+ }
+ .photo6{
+     background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/3/3c/The_Avengers_2012_logo.jpg/204px-The_Avengers_2012_logo.jpg);
+ }
+ .photo7{
+     background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/1/14/Iron_Man_3.jpg/212px-Iron_Man_3.jpg);
+ }
+ .photo8{
+     background-image: url(https://upload.wikimedia.org/wikipedia/ru/0/04/Thor_The_Dark_World.jpg);
+ }
+ .photo9{
+     background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/e/e8/Captain_America_The_Winter_Soldier.jpg/204px-Captain_America_The_Winter_Soldier.jpg);
+ }
+ .photo10{
+     background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/c/cc/Guardians_of_the_Galaxy.jpg/204px-Guardians_of_the_Galaxy.jpg);
+ }
+ .photo11{
+     background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/0/04/The_Avengers_Age_of_Ultron_poster.jpg/204px-The_Avengers_Age_of_Ultron_poster.jpg);
+ }
+ .photo12{
+     background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/7/75/Ant-Man_poster.jpg/204px-Ant-Man_poster.jpg);
+ }
+ .photo13{
+     background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/b/b5/Captain_America_Civil_War.jpg/204px-Captain_America_Civil_War.jpg);
+ }
+ .photo14{
+     background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/c/c7/Doctor_Strange_poster.jpg/204px-Doctor_Strange_poster.jpg);
+ }
+.photo15{
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/0/03/GUGA2_PAYOFF_68x100_preview.jpg/204px-GUGA2_PAYOFF_68x100_preview.jpg);
+}
+.photo16{
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/5/5a/Spider-Man_Homecoming_logo.jpg/202px-Spider-Man_Homecoming_logo.jpg);
+}
+.photo17{
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/e/e3/THOR-R_TEASER_68x100_preview.jpg/204px-THOR-R_TEASER_68x100_preview.jpg);
+}
+.photo18{
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/0/0c/Black_Panther_film_poster.jpg/205px-Black_Panther_film_poster.jpg);
+}
+.photo19{
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/4/4d/Avengers_Infinity_War_poster.jpg/204px-Avengers_Infinity_War_poster.jpg);
+}
+.photo20{
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/e/e7/Ant-man_and_The_Wasp.jpg/205px-Ant-man_and_The_Wasp.jpg);
+}
+.photo21{
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/0/07/Captain_Marvel_film_logo.jpg/230px-Captain_Marvel_film_logo.jpg);
+}
+.photo22{
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/a/a4/The_Avengers_Endgame_Poster.jpg/202px-The_Avengers_Endgame_Poster.jpg);
+}
+.photo23{
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/b/bd/Spider-Man_Far_From_Home_poster.jpg/205px-Spider-Man_Far_From_Home_poster.jpg);
+}
+.photo24{
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/a/a1/Black_Widow_logo.jpg/204px-Black_Widow_logo.jpg);
+}
+
+
+ 
+
+
+
+.item:hover{
+    transform: scale(1.5) rotate(360deg);
+    transition: 0.2s;
+    
+}
+
+
+.hjk{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    font-family:  'Inconsolata', monospace;
+    color: white;
+    
+}
+.sat{
+    color: black;
+    font-size: 40px;
+    font-family: 'Akaya Telivigala', cursive  ;
+    margin-left:  500px;
+    margin-top: 200px;
+    margin-right: 500px;
+    border:  5px double;
+}
+.sat:hover{
+    color: chartreuse;
+}
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
